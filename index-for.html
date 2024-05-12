@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../super-heroes/css/style-for.css">
+    <title>Añade Tu Super</title>
+</head>
+<body>
+    <p class="descuento">20% de descuento en todos los productos</p>
+    <div class="tienda">
+        <img src="../super-heroes/img/Captura de pantalla 2024-05-01 165323.png" alt="logo" width="100" height="75">
+        <span class="Ntienda">Nombre Tienda</span>
+    </div>
+    <div class="fondo">
+        <div class="titulo">
+        <h1>Añadi tu super!</h1>
+        <p>agrega tu personaje favorito completando las opciones.</p>
+        </div>
+           
+        
+    <form action="" class="formulario">
+        <div class="cont-1">
+          <div class="CNombre">  
+        <label for="Nombre">*Nombre</label>
+        <input type="text" name="Nombre" class="INombre">
+            </div>
+         <div class="CEspecie">   
+        <label for="Especie">*Especie</label>
+        <select name="Especie" id="Especie" class="IEspecie" >
+            <option value="Humano">Humano</option>
+            <option value="Alien">Alien</option>
+            <option value="Robot">Robot</option>
+            <option value="reptil">reptil</option>
+        </select>
+    </div>
+    </div>
+    <div class="cont-1">
+        <div class="CNombre">
+        <label for="Fecha">Fecha</label>
+        <input type="date" name="Fecha" class="INombre">
+    </div>    
+    <div class="CNombre">
+        <label for="Foto">Agregar Foto</label>
+        <input type="file" name="Foto" class="INombre">
+        </div>
+    </div> 
+    <div class="cont-1">
+        <textarea name="descripcion" id="descripcion" cols="30" rows="10" placeholder="Descripcion"></textarea>
+        <div class="cont-2">
+            <div class="Cpoder">
+        <label for="poderes">Poderes</label>
+        <ul type="none" class="Ipoder">
+            <li ><input type="checkbox" name="poderes" value="Volar">
+                <span>Volar</span></li>
+             <li><input type="checkbox" name="poderes" value="superinteligencia"> <span>superinteligencia</span> </li> 
+             <li><input type="checkbox" name="poderes" value="rayo laser"> <span>Vista de rayo laser</span></li>
+             <li><input type="checkbox" name="poderes" value="Billetera Gorda"> <span>Billetera Gorda</span></li>  
+        </ul>
+    </div>
+    <hr>
+    <div class="Cpoder">
+        <label for="tipo de personaje">Tipo de personaje</label>
+        <ul type="none" class="Ipoder">
+            <li><input type="radio" name="tipo de personaje" value="heroe"> <span>Heroe / Heroina</span></li>
+            <li><input type="radio" name="tipo de personaje" value="villano"><span>Villano / Villana</span></li>
+        </ul>
+    </div>
+    </div>
+    </div> 
+    <div class="boton">  
+        <button type="submit">Añadir</button>
+    </div>
+    </form>
+</div>
+<div class="pie">
+    <span class="final">Todos los derechos reservados a FRONT END 1</span>
+</div>
+</body>
+</html>
